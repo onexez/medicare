@@ -1,26 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Unbounded:wght@200..900&display=swap");
+
 @import "tailwindcss";
 
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "remixicon/fonts/remixicon.css";
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --prim-color: #14b8a6;
+  --prim-light: #14b8a663;
+  --prim-color2: #beff6b;
+  --white-color: #fff;
+  --black-color: #000;
+
+  --ubounded: "Unbounded", sans-serif;
+  --merienda: "Merienda", sans-serif;
+
+  --transition-regular: 0.3s;
+  --transition-slow: 0.6s;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.Unbounded {
+  font-family: var(--ubounded);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.Merienda {
+  font-family: var(--merienda);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #090a0b;
+  color: var(--white-color);
+}
+
+/* Navbar */
+
+.menu-link a {
+  font-weight: 600;
+  transition: var(--transition-regular);
+}
+
+.fixed-nav {
+  animation: Anim-fixed var(--transition-slow);
+  box-shadow: 0 2px 10px rgba(131, 131, 131, 0.6);
+}
+
+@keyframes Anim-fixed {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
