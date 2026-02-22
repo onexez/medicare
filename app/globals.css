@@ -70,6 +70,19 @@ body {
   background-position: top center;
   background-size: contain;
 }
+
+.hero-card img {
+  transition: var(--transition-slow);
+}
+
+.hero-card:hover img {
+  transform: rotateY(360deg);
+}
+
+.hero-card:hover h2 {
+  color: var(--white-color);
+}
+
 .btns {
   position: relative;
   overflow: hidden;
@@ -163,5 +176,130 @@ body {
   100% {
     transform: scale(1);
     opacity: 0;
+  }
+}
+
+/* Hero */
+
+.hero-shape1 {
+  animation: Anim-TB 5s infinite forwards linear;
+}
+
+@keyframes Anim-TB {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-shape2 {
+  animation: Anim-half-rotate 5s infinite forwards linear;
+}
+
+@keyframes Anim-half-rotate {
+  0% {
+    transform: rotate(-60deg);
+  }
+  50% {
+    transform: rotate(-70deg);
+  }
+  100% {
+    transform: rotate(-60deg);
+  }
+}
+.hero-circle-text {
+  animation: Anim-rotate 8s infinite forwards linear;
+}
+
+@keyframes Anim-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* About */
+
+.about-ele1 {
+  animation: Anim-sort-rotate 5s infinite forwards linear;
+}
+
+@keyframes Anim-sort-rotate {
+  0% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
+
+.about-ele2 {
+  animation: Anim-sort-rotate2 5s infinite forwards linear;
+}
+
+@keyframes Anim-sort-rotate2 {
+  0% {
+    transform: rotate(-50deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-50deg);
+  }
+}
+
+/* Feature */
+
+.features {
+  box-shadow: 0 0 10px #ffffff70;
+}
+
+.feature-image {
+  transform: rotate(30deg) rotateX(90deg) translateX(-50%);
+  opacity: 0;
+  transition: var(--transition-slow);
+}
+.feature-card:hover .feature-image {
+  transform: rotate(0);
+  opacity: 1;
+}
+/* MQ Section */
+
+@media (max-width: 991) {
+  .hero-title {
+    width: 100%;
+  }
+  .hero-shape2 {
+    width: 300px;
+  }
+  .about-ele1,
+  .about-ele2 {
+    right: 15%;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-title h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .title h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .hero-shape2 {
+    display: none;
+  }
+  .hero-shape1 {
+    width: 30%;
+    top: 0;
   }
 }

@@ -8,6 +8,7 @@ import hero1 from "@/public/hero1.jpg";
 import Ficon1 from "@/public/f-icon1.png";
 import Ficon2 from "@/public/f-icon2.png";
 import Ficon3 from "@/public/f-icon3.png";
+import Link from "next/link";
 
 type HeroCardType = {
   title: string;
@@ -45,9 +46,17 @@ function Hero() {
           {HeroCard.map((card, index) => (
             <div key={index} className='hero-card flex flex-col cursor-pointer'>
               <Image src={card.image} alt={card.title} className='invert' />
-              <h2 className='text-2xl mt-5 mb-2 text-gray-400 Merienda hover:text-white transition all duration-200'>
+              <h2 className='text-2xl mt-5 mb-2 text-gray-400 Merienda hover:text-white transition all duration-200 md:text-xl'>
                 {card.title}
               </h2>
+              <div>
+                <button className='btns2 Merienda text-gray-400 flex items-center hover:text-white transition-all duration-500 cursor-pointer'>
+                  <Link className='flex items-center' href='UI-Components/Pages/Contact'>
+                    Read More
+                    <Image src={arrowBtn} alt='ArrowBtn' className='ms-3 invert' />
+                  </Link>
+                </button>
+              </div>
             </div>
           ))}
         </div>
