@@ -18,8 +18,8 @@ const navLinks: NavLink[] = [
     label: "Service",
     href: "/UI-Components/Servece",
     dropdown: [
-      { label: "Servece", href: "/UI-Components/Servece" },
-      { label: "Servece Details", href: "/UI-Components/Servece/serveceDetails?id=1" },
+      { label: "Service", href: "/UI-Components/Service" },
+      { label: "Service Details", href: "/UI-Components/Service/ServiceDetails?id=1" },
     ],
   },
   {
@@ -70,9 +70,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
-      className={`w-full bg-white z-99999 shadow-sm transition-all py-4 lg:py-2 duration-500 ${isFixed ? "fixed top-0 z-50 fixed-nav" : ""}`}
-    >
+    <div className={`w-full bg-white z-99999 shadow-sm transition-all py-4 lg:py-2 duration-500 ${isFixed ? "fixed top-0 z-50 fixed-nav" : ""}`}>
       <div className='flex items-center justify-between px-[8%] lg:px[12%] pb-2 lg:pb-0 text-gray-700'>
         {/* Logo */}
         <Link href='/' className='text-4xl font-bold Merienda text-black'>
@@ -104,11 +102,7 @@ const Navbar = () => {
                 </div>
               </div>
             ) : (
-              <Link
-                className='text-lg font-bold hover:text-(--prim-color) transition-colors'
-                key={link.label}
-                href={link.href}
-              >
+              <Link className='text-lg font-bold hover:text-(--prim-color) transition-colors' key={link.label} href={link.href}>
                 {link.label}
               </Link>
             ),
@@ -135,32 +129,17 @@ const Navbar = () => {
       </div>
       {/* Mobile menu Smooth Transition */}
 
-      <div
-        className={`lg:hidden overflow-hidden transition-all duration-500 ${
-          mobileMenuOpen ? "max-h-600px opacity-100" : "max-h-0 opacity-0"
-        }`}
-      >
+      <div className={`lg:hidden overflow-hidden transition-all duration-500 ${mobileMenuOpen ? "max-h-600px opacity-100" : "max-h-0 opacity-0"}`}>
         <nav className='px-[8%] pb-6 space-y-4'>
           {navLinks.map((link) =>
             link.dropdown ? (
               <div key={link.label} className='space-y-2'>
-                <button
-                  onClick={() => toggleDropdown(link.label)}
-                  className='flex justify-between w-full text-lg font-bold text-gray-700'
-                >
+                <button onClick={() => toggleDropdown(link.label)} className='flex justify-between w-full text-lg font-bold text-gray-700'>
                   {link.label}
-                  <i
-                    className={`ri-arrow-down-s-line transition-transform ${
-                      activeDropdown === link.label ? "rotate-180" : ""
-                    }`}
-                  ></i>
+                  <i className={`ri-arrow-down-s-line transition-transform ${activeDropdown === link.label ? "rotate-180" : ""}`}></i>
                 </button>
 
-                <div
-                  className={`pl-4 space-y-2 transition-all duration-300 ${
-                    activeDropdown === link.label ? "block" : "hidden"
-                  }`}
-                >
+                <div className={`pl-4 space-y-2 transition-all duration-300 ${activeDropdown === link.label ? "block" : "hidden"}`}>
                   {link.dropdown.map((item) => (
                     <Link
                       key={item.label}

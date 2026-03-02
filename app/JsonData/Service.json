@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Quality Care Service",
+    "titleImage": "/ser1.png",
+    "image": "/service-v1.jpg",
+    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+  },
+  {
+    "id": "2",
+    "title": "Your Wellness Priority",
+    "titleImage": "/ser2.png",
+    "image": "/service-v2.jpg",
+    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+  },
+  {
+    "id": "3",
+    "title": "Caring for You Always",
+    "titleImage": "/ser3.png",
+    "image": "/service-v3.jpg",
+    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+  },
+  {
+    "id": "4",
+    "title": "Quality Care Service",
+    "titleImage": "/ser4.png",
+    "image": "/service-v4.jpg",
+    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+  },
+  {
+    "id": "5",
+    "title": "Where health meets",
+    "titleImage": "/ser5.png",
+    "image": "/service-v5.jpg",
+    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+  },
+  {
+    "id": "6",
+    "title": "Center Harmony",
+    "titleImage": "/ser6.png",
+    "image": "/service-v6.jpg",
+    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+  }
+]

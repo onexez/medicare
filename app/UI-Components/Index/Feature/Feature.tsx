@@ -47,7 +47,7 @@ function Feature() {
                 <Image src={feature1} alt='feature1' className='feature-image rounded-2xl' />
               </div>
               <div className='flex flex-col'>
-                <button className='btns flex Unbounded bg-white text-black gap-2 px-5 py-3 rounded-full hover:text-white transition-all duration-500 cursor-pointer'>
+                <button className='btns flex Unbounded bg-white text-black gap-2 px-5 py-3 rounded-full hover:text-white transition-all duration-500 cursor-pointer md:text-[11px]'>
                   Read more
                   <Image src={arrowBtn} alt='ArrowBtn' />
                 </button>
@@ -79,7 +79,7 @@ function Feature() {
                 <Image src={feature2} alt='feature2' className='feature-image rounded-2xl' />
               </div>
               <div className='flex flex-col'>
-                <button className='btns flex Unbounded bg-white text-black gap-2 px-5 py-3  rounded-full hover:text-white transition-all duration-500 cursor-pointer'>
+                <button className='btns flex Unbounded bg-white text-black gap-2 px-5 py-3  rounded-full hover:text-white transition-all duration-500 cursor-pointer md:text-[11px]'>
                   Read more
                   <Image src={arrowBtn} alt='ArrowBtn' />
                 </button>
@@ -111,7 +111,7 @@ function Feature() {
                 <Image src={feature3} alt='feature3' className='feature-image rounded-2xl' />
               </div>
               <div className='flex flex-col'>
-                <button className='btns flex Unbounded bg-white text-black gap-2 px-5 py-3  rounded-full hover:text-white transition-all duration-500 cursor-pointer'>
+                <button className='btns flex Unbounded bg-white text-black gap-2 px-5 py-3  rounded-full hover:text-white transition-all duration-500 cursor-pointer md:text-[11px]'>
                   Read more
                   <Image src={arrowBtn} alt='ArrowBtn' />
                 </button>

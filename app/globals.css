@@ -339,6 +339,75 @@ body {
   justify-content: center;
 }
 
+/* Testimonial */
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+.swiper-btn {
+  cursor: pointer;
+  transition: var(--transition-regular);
+  width: 50px;
+}
+
+.swiper-btn:hover {
+  background-color: var(--black-color);
+  transform: scale(1.1);
+}
+.swiper-btn:hover img {
+  filter: invert(100%);
+}
+
+/* Footer */
+
+footer {
+  background-image: url(../public/footer-element.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.footer-social-icon {
+  transition: var(--transition-regular);
+  cursor: pointer;
+}
+
+.footer-social-icon i:hover {
+  background-color: var(--prim-color);
+  border-color: transparent;
+}
+
+/* Service Page */
+
+.section-title {
+  background-image: url(../public/Section-banners.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.service-card {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+.service-icon {
+  transition: var(--transition-regular);
+}
+.service-card:hover .service-icon {
+  background-color: var(--prim-color2);
+}
+
+.service-btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* MQ Section */
 
 @media (max-width: 991) {
@@ -350,7 +419,12 @@ body {
   }
   .about-ele1,
   .about-ele2 {
-    right: 15%;
+    right: 15% !important;
+  }
+
+  .footer-btn {
+    width: 200px !important;
+    right: 25%;
   }
 }
 
