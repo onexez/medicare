@@ -2,57 +2,49 @@
   {
     "id": "1",
     "tag": "Care Plus",
-    "title": "Wellness Begins with Us",
+    "title": "Оздоровление начинается с нас",
     "image": "/project1.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    "desc": "Медицинская помощь включает широкий спектр услуг, направленных на укрепление здоровья, профилактику заболеваний и лечение болезней. От плановых осмотров до спасительных операций медицинская помощь играет ключевую роль в обеспечении благополучия индивидов и сообществ",
+    "desc2": "Медицинские услуги — неотъемлемая часть нашей жизни, предлагающая уход и лечение различных состояний здоровья. Эти услуги охватывают широкий спектр специальностей, включая первичную помощь, педиатрию, кардиологию"
   },
   {
     "id": "2",
-    "tag": "Renew Health Center",
-    "title": "Quality health close to home",
+    "tag": "Центр обновления здоровья",
+    "title": "Качественное здоровье рядом с домом",
     "image": "/project2.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    "desc": "Медицинская помощь включает широкий спектр услуг, направленных на укрепление здоровья, профилактику заболеваний и лечение болезней. От плановых осмотров до спасительных операций медицинская помощь играет ключевую роль в обеспечении благополучия индивидов и сообществ",
+    "desc2": "Медицинские услуги — неотъемлемая часть нашей жизни, предлагающая уход и лечение различных состояний здоровья"
   },
   {
     "id": "3",
-    "tag": "Wellness Oasis",
-    "title": "A healthy tomorrow starts today",
+    "tag": "Оазис оздоровления",
+    "title": "Здоровое завтра начинается сегодня",
     "image": "/project3.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
-  },
-  {
-    "id": "3",
-    "tag": "Wellness Oasis",
-    "title": "A healthy tomorrow starts today",
-    "image": "/project3.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    "desc": "Медицинская помощь включает широкий спектр услуг, направленных на укрепление здоровья, профилактику заболеваний и лечение болезней. От плановых осмотров до спасительных операций медицинская помощь играет ключевую роль в обеспечении благополучия индивидов и сообществ",
+    "desc2": "Медицинские услуги — неотъемлемая часть нашей жизни, предлагающая уход и лечение различных состояний здоровья"
   },
   {
     "id": "4",
-    "tag": "Revive Medical Care",
-    "title": "Caring for you every step of the way",
+    "tag": "Возрождение медицинской помощи",
+    "title": "Заботимся о вас на каждом шагу",
     "image": "/project4.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    "desc": "Медицинская помощь включает широкий спектр услуг, направленных на укрепление здоровья, профилактику заболеваний и лечение болезней. От плановых осмотров до спасительных операций медицинская помощь играет ключевую роль в обеспечении благополучия индивидов и сообществ",
+    "desc2": "Медицинские услуги — неотъемлемая часть нашей жизни, предлагающая уход и лечение различных состояний здоровья"
   },
   {
     "id": "5",
-    "tag": "Harmony Med",
-    "title": "Tomorrow's Health, Today's Care",
+    "tag": "Гармония медицины",
+    "title": "Здоровье завтрашнего дня — забота сегодняшнего дня",
     "image": "/project5.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    "desc": "Медицинская помощь включает широкий спектр услуг, направленных на укрепление здоровья, профилактику заболеваний и лечение болезней. От плановых осмотров до спасительных операций медицинская помощь играет ключевую роль в обеспечении благополучия индивидов и сообществ",
+    "desc2": "Медицинские услуги — неотъемлемая часть нашей жизни, предлагающая уход и лечение различных состояний здоровья"
   },
   {
     "id": "6",
-    "tag": "Life Harbor",
-    "title": "Your Health, Our Priority",
+    "tag": "Гавань жизни",
+    "title": "Ваше здоровье — наш приоритет",
     "image": "/project6.jpg",
-    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities Medical care encompasses a range of services aimed at promoting health, preventing disease, and treating illnesses. From routine check-ups to life-saving surgeries, medical care plays a crucial role in ensuring the well-being of individuals and communities",
-    "desc2": "Medical services are an essential part of our lives, offering care and treatment for various health conditions. These are a services encompass a wide range of specialties, including primary care, pediatrics, cardiology Medical services are an essential part of our lives, offering care and treatment for various health conditions These services"
+    "desc": "Медицинская помощь включает широкий спектр услуг, направленных на укрепление здоровья, профилактику заболеваний и лечение болезней. От плановых осмотров до спасительных операций медицинская помощь играет ключевую роль в обеспечении благополучия индивидов и сообществ",
+    "desc2": "Медицинские услуги — неотъемлемая часть нашей жизни, предлагающая уход и лечение различных состояний здоровья"
   }
 ]

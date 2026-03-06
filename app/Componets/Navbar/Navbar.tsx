@@ -11,11 +11,11 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   {
-    label: "Home",
+    label: "Главная",
     href: "/",
   },
   {
-    label: "Service",
+    label: "Услуги",
     href: "/UI-Components/Servece",
     dropdown: [
       { label: "Service", href: "/UI-Components/Service" },
@@ -23,7 +23,7 @@ const navLinks: NavLink[] = [
     ],
   },
   {
-    label: "Project",
+    label: "Проекты",
     href: "/UI-Components/Projects",
     dropdown: [
       { label: "Projects", href: "/UI-Components/Projects" },
@@ -31,7 +31,7 @@ const navLinks: NavLink[] = [
     ],
   },
   {
-    label: "Blogs",
+    label: "Блог",
     href: "/UI-Components/Blogs",
     dropdown: [
       { label: "Blogs", href: "/UI-Components/Blogs" },
@@ -39,7 +39,7 @@ const navLinks: NavLink[] = [
     ],
   },
   {
-    label: "Pages",
+    label: "Страницы",
     href: "/UI-Components/Pages/About",
     dropdown: [
       { label: "About", href: "/UI-Components/Pages/About" },
@@ -48,7 +48,7 @@ const navLinks: NavLink[] = [
       { label: "Pricing", href: "/UI-Components/Pages/Pricing" },
     ],
   },
-  { label: "Contact us", href: "/UI-Components/Pages/Contact" },
+  { label: "Связь с нами", href: "/UI-Components/Pages/Contact" },
 ];
 
 const Navbar = () => {
@@ -112,7 +112,7 @@ const Navbar = () => {
         <button className='nav-button items-center cursor-pointer font-bold p-3 hidden lg:flex'>
           <i className='bi bi-telephone pe-3 text-4xl'></i>
           <div className='flex flex-col items-start'>
-            <p className='text-gray-500 font-medium'>Need Help?</p>
+            <p className='text-gray-500 font-medium'>Нужна помощь?</p>
             (91)+123 456 789
           </div>
         </button>

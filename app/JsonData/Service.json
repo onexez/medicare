@@ -1,44 +1,44 @@
 [
   {
     "id": "1",
-    "title": "Quality Care Service",
+    "title": "Качественная медицинская помощь",
     "titleImage": "/ser1.png",
     "image": "/service-v1.jpg",
-    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    "desc": "Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг"
   },
   {
     "id": "2",
-    "title": "Your Wellness Priority",
+    "title": "Ваше здоровье — наш приоритет",
     "titleImage": "/ser2.png",
     "image": "/service-v2.jpg",
-    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    "desc": "Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг"
   },
   {
     "id": "3",
-    "title": "Caring for You Always",
+    "title": "Всегда заботимся о вас",
     "titleImage": "/ser3.png",
     "image": "/service-v3.jpg",
-    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    "desc": "Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг"
   },
   {
     "id": "4",
-    "title": "Quality Care Service",
+    "title": "Качественная медицинская помощь",
     "titleImage": "/ser4.png",
     "image": "/service-v4.jpg",
-    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    "desc": "Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг"
   },
   {
     "id": "5",
-    "title": "Where health meets",
+    "title": "Там, где здоровье встречает",
     "titleImage": "/ser5.png",
     "image": "/service-v5.jpg",
-    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    "desc": "Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг"
   },
   {
     "id": "6",
-    "title": "Center Harmony",
+    "title": "Центр гармонии",
     "titleImage": "/ser6.png",
     "image": "/service-v6.jpg",
-    "desc": "Health care is a vital aspect maintaining overall well-being, encompassing a range"
+    "desc": "Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг"
   }
 ]
