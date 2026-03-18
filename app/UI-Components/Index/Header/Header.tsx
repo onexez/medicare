@@ -15,9 +15,9 @@ function Header() {
         <Image src={heroShape1} alt='heroShape' className='absolute top-3 left-0 -rotate-90' />
         <Image src={heroShape1} alt='heroShape' className='absolute top-3 left-0 -rotate-90' />
         <span className='bg-(--prim-color2) text-black Unbounded shadow-lg shadow-white/20 px-4 py-2 rounded-full'>Madical Care</span>
-        <div className='hero-title w-[70%] my-5'>
-          <h1 className='text-7xl leading-25 Unbounded '>
-            Trusted <span> Medical </span> care near you, supporting <span> health </span> each day
+        <div className='hero-title w-[70%] md:w-full my-5'>
+          <h1 className='text-7xl md:text-4xl md:leading-20 Unbounded '>
+            Надёжная <span>медицинская</span> помощь рядом с вами — для вашего <span>здоровья</span> каждый день.
           </h1>
         </div>
         <div className='flex items-center gap-5'>

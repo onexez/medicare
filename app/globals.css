@@ -412,6 +412,22 @@ footer {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
+/* Blog */
+
+.blog-card {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.blog-img {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+.blog-img img {
+  transition: var(--transition-regular);
+}
+.blog-card:hover .blog-img img {
+  transform: scale(1.1);
+}
+
 /* MQ Section */
 
 @media (max-width: 991) {
