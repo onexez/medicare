@@ -1,5 +1,5 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import AboutImg from "@/public/about.png";
 import heroShape1 from "@/public/about-element1.png";
 import heroShape2 from "@/public/about-element2.png";

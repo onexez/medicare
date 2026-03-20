@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Dr.Alvin Eclair",
+    "type": "Neurology Expert",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Dr.Alan Jellybean",
+    "type": "Dental Care",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Dr.Dean R. Chassay",
+    "type": "Eye Expert",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dr.Alan Jellybean",
+    "type": "Heart Spacialist",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Dr.Nikol Jons",
+    "type": "Heart Spacialist",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Dr.Harry Kane",
+    "type": "Eye Spacilist",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-1.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Dr.Nathan Kyler",
+    "type": "Heart Spacialist",
+    "desc": "Medical care encompasses a range of services aimed at promoting health, preventing disease",
+    "desc2": "Medical services are an essential part of our lives, offering care and treatment for health conditions",
+    "image": "/Doctor-2.jpg"
+  }
+]

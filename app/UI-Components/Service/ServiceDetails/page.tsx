@@ -152,14 +152,14 @@ function ServiceDetails() {
             </div>
             <div className='shadow-light rounded-xl p-5 mt-5'>
               <div className='flex flex-col justify-center items-center'>
-                <h2 className='Unbounded text-2xl'>Нужна помощь?</h2>
+                <h2 className='Unbounded text-2xl text-center'>Нужна помощь?</h2>
                 <div className='my-5 bg-(--prim-color) px-8 py-7 rounded-full'>
                   <i className='bi bi-telephone-fill text-4xl text-white'></i>
                 </div>
                 <p className='text-center'>
                   Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг от профилактической помощ
                 </p>
-                <h2 className='Unbounded text-2xl my-5'>(+91) 123 456 789</h2>
+                <h2 className='Unbounded text-xl my-5'>(+91) 123 456 789</h2>
                 <div className='flex gap-3'>
                   <i className='bi bi-instagram bg-gray-200/50 px-4 py-3 rounded-full hover:bg-(--prim-color) hover:text-white transition-all duration-300 cursor-pointer'></i>
                   <i className='bi bi-github bg-gray-200/50 px-4 py-3 rounded-full hover:bg-(--prim-color) hover:text-white transition-all duration-300 cursor-pointer'></i>

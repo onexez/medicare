@@ -77,6 +77,40 @@ function Blog() {
             </div>
             <div className='shadow-light rounded-xl p-5 mt-5'>
               <h2 className='Unbounded text-2xl'>Recent Post</h2>
+              <div className='mt-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-3'>
+                {Blogs.map((blog, index) => (
+                  <Link key={index} href={`/UI-Components/Blogs/blogDetails?id=${blog.id}`}>
+                    <div className='flex flex-col border border-gray-500 rounded-b-md p-2 py-4'>
+                      <Image src={blog.image} alt={blog.title} width={150} height={150} className='w-full rounded-md object-contain' />
+                      <div className='flex items-center gap-4 mt-3 mb-2'>
+                        <span className='text-gray-300'>
+                          <i className='bi bi-person-fill text-(--prim-color) pe-1.5'></i>
+                          Admin
+                        </span>
+                      </div>
+                      <h2 className='Unbounded text-sm'>{blog.title}</h2>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className='shadow-light rounded-xl p-5 mt-5'>
+              <div className='flex flex-col justify-center items-center'>
+                <h2 className='Unbounded text-2xl text-center'>Нужна помощь?</h2>
+                <div className='my-5 bg-(--prim-color) px-8 py-7 rounded-full'>
+                  <i className='bi bi-telephone-fill text-4xl text-white'></i>
+                </div>
+                <p className='text-center'>
+                  Медицинская помощь — важный аспект поддержания общего благополучия, включающий широкий спектр услуг от профилактической помощ
+                </p>
+                <h2 className='Unbounded text-xl my-5 text-center'>(+91) 123 456 789</h2>
+                <div className='flex gap-3'>
+                  <i className='bi bi-instagram bg-gray-200/50 px-4 py-3 rounded-full hover:bg-(--prim-color) hover:text-white transition-all duration-300 cursor-pointer'></i>
+                  <i className='bi bi-github bg-gray-200/50 px-4 py-3 rounded-full hover:bg-(--prim-color) hover:text-white transition-all duration-300 cursor-pointer'></i>
+                  <i className='bi bi-threads bg-gray-200/50 px-4 py-3 rounded-full hover:bg-(--prim-color) hover:text-white transition-all duration-300 cursor-pointer'></i>
+                  <i className='bi bi-behance bg-gray-200/50 px-4 py-3 rounded-full hover:bg-(--prim-color) hover:text-white transition-all duration-300 cursor-pointer'></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>

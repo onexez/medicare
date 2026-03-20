@@ -158,21 +158,19 @@ const Navbar = () => {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label='Toggle menu'
-              className='relative w-10 h-10 flex flex-col justify-center items-center gap-[6px] focus:outline-none'
+              className='relative w-10 h-10 flex flex-col justify-center items-center gap-1.5 focus:outline-none'
             >
               <span
-                className={`block h-[2px] bg-gray-700 rounded-full transition-all duration-300 origin-center ${
-                  mobileMenuOpen ? "w-6 translate-y-[8px] rotate-45" : "w-6"
+                className={`block h-0.5 bg-gray-700 rounded-full transition-all duration-300 origin-center ${
+                  mobileMenuOpen ? "w-6 translate-y-2 rotate-45" : "w-6"
                 }`}
               />
               <span
-                className={`block h-[2px] bg-gray-700 rounded-full transition-all duration-300 ${
-                  mobileMenuOpen ? "w-0 opacity-0" : "w-6 opacity-100"
-                }`}
+                className={`block h-0.5 bg-gray-700 rounded-full transition-all duration-300 ${mobileMenuOpen ? "w-0 opacity-0" : "w-6 opacity-100"}`}
               />
               <span
-                className={`block h-[2px] bg-gray-700 rounded-full transition-all duration-300 origin-center ${
-                  mobileMenuOpen ? "w-6 -translate-y-[8px] -rotate-45" : "w-6"
+                className={`block h-0.5 bg-gray-700 rounded-full transition-all duration-300 origin-center ${
+                  mobileMenuOpen ? "w-6 -translate-y-2 -rotate-45" : "w-6"
                 }`}
               />
             </button>
